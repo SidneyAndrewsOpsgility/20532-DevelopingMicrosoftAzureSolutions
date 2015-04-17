@@ -1,0 +1,9 @@
+# Temp folder
+temp/
+
+# Installers
+*.msi
+
+# Output zip files
+lab_instructions*.zip
+allfiles*.zip
