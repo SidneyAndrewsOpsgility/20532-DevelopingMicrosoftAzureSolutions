@@ -1,0 +1,38 @@
+﻿@model EventsListViewModel
+@{
+    ViewBag.Title = "Home";
+}
+@section header
+{
+    <div class="jumbotron">
+        <h1>Events Administration</h1>
+        <p>
+            Text would go here to describe how to administer an event.
+        </p>
+        <p>
+            <a class="btn btn-primary btn-large" href="@Url.Action("Events")">
+                Go to Events List
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </p>
+    </div>
+}
+<div class="list-group">
+    <a class="list-group-item active" href="#">
+        <h4 class="list-group-item-heading">
+            Latest @Model.EventCount Events
+        </h4>
+    </a>
+    @foreach (Event item in @Model.Events.OrderByDescending(e => e.StartTime).Take(Model.EventCount))
+    {
+        <a class="list-group-item" href="#">
+            <span class="badge">@item.RegistrationCount</span>
+            <h4 class="list-group-item-heading">
+                @item.Title
+            </h4>
+            <p class="list-group-item-text">
+                @item.Description
+            </p>
+        </a>
+    }
+</div>
