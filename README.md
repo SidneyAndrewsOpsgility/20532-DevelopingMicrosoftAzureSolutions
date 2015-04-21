@@ -7,14 +7,14 @@
 ## Where will the files be?
 * The files are available in a GitHub repo at https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions
 
-## How should I used these files relative to the released MOC files?
+## How should I use these files relative to the released MOC files?
 * We'll do new builds weekly of portable versions of the MD source so you can always have a build of the latest ready to share with your students.
 * These open files are designed to be used in conjunction with the student handbook, but are in GitHub as a central repository so MCTs and course authors can have a shared source for the latest files.
 * It will be recommended that for every delivery of 20532B, trainers check GitHub for any changes that may have been made to support the latest Azure services, and get the latest files for their delivery.
 
 ## How do I contribute?
-* Any MCTs can submit a pull request to the code or content in the GitHub repro, Microsoft and the course author will triage and include changes as needed.
-* You can submit bugs, changes, improvements, ideas.  Find a new Azure feature before we have?  Submit a new demo!
+* Any MCT can submit a pull request to the code or content in the GitHub repro, Microsoft and the course author will triage and include content and lab code changes as needed.
+* You can submit bugs, changes, improvement and ideas.  Find a new Azure feature before we have?  Submit a new demo!
 
 ## What about changes to the student handbook?
 * The student handbook will get updated on a regular basis through normal MOC release channels as needed basis.  
