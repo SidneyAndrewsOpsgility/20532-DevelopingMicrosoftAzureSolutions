@@ -1,7 +1,7 @@
 #20532: Developing Microsoft Azure Solutions
 
 ## What are we doing?
-* To support course [20532B Developing Microsoft Azure Solutions](https://www.microsoft.com/learning/en-us/course.aspx?ID=20532B), we will need to make frequent updates to the course content to keep it current with as the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
+* To support course [20532B Developing Microsoft Azure Solutions](https://www.microsoft.com/learning/en-us/course.aspx?ID=20532B), we will need to make frequent updates to the course content to keep it current with the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
 * We hope that this brings a sense of collaboration to the labs like we've never had before - when Azure changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
 
 ## Where will the files be?
