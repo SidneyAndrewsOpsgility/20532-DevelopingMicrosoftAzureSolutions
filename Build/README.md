@@ -4,9 +4,9 @@
 
 ## Prerequisites
 * Pandoc 1.13.2
-  * Windows Installer: ![https://github.com/jgm/pandoc/releases](https://github.com/jgm/pandoc/releases/tag/1.13.2)
+  * Windows Installer: [https://github.com/jgm/pandoc/releases](https://github.com/jgm/pandoc/releases/tag/1.13.2)
 * PowerShell Community Extensions 3.2.0
-  * Installer: ![http://pscx.codeplex.com/releases](http://pscx.codeplex.com/releases/view/133199)
+  * Installer: [http://pscx.codeplex.com/releases](http://pscx.codeplex.com/releases/view/133199)
 
 > For some scenarios, you may need to reboot your machine or log off after installing the two prerequisites. This manual build has only been tested with the above versions of each dependency.
 
