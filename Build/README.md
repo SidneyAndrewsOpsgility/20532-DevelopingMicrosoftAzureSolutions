@@ -12,3 +12,5 @@
 
 ## Manual Builds
 A PowerShell script is included that will build the course and output two zip files, one for the **AllFiles** and one for the **Lab Instructions**.  The script will initially prompt you for a version number and that version number is used in the name of the resulting zip files.  Both prerequisites must be installed prior to running the script.
+
+> If you are new to PowerShell, you may need to set the execution policy of remote scripts on your machine.  More details can be found here [TechNet: Using the Set-ExecutionPolicy Cmdlet](https://technet.microsoft.com/en-us/library/ee176961.aspx)
