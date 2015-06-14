@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{C5B63C4A-E512-4139-9BBE-9529FCF31098}"
 EndProject
@@ -28,64 +28,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Events.Management", "Contoso.Events.Management\Contoso.Events.Management.csproj", "{4946DDCE-2D81-4452-82B8-7CAD9CB43712}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://vstf-us-wa-11.partners.extranet.microsoft.com:8443/tfs/mslearning
-		SccProjectUniqueName0 = Contoso.Events.Web\\Contoso.Events.Web.csproj
-		SccProjectTopLevelParentUniqueName0 = Contoso.Events.sln
-		SccProjectName0 = Contoso.Events.Web
-		SccAuxPath0 = https://vstf-us-wa-11.partners.extranet.microsoft.com:8443/tfs/mslearning
-		SccLocalPath0 = Contoso.Events.Web
-		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName1 = Contoso.Events.Models\\Contoso.Events.Models.csproj
-		SccProjectTopLevelParentUniqueName1 = Contoso.Events.sln
-		SccProjectName1 = Contoso.Events.Models
-		SccAuxPath1 = https://vstf-us-wa-11.partners.extranet.microsoft.com:8443/tfs/mslearning
-		SccLocalPath1 = Contoso.Events.Models
-		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName2 = Contoso.Events.Data\\Contoso.Events.Data.csproj
-		SccProjectTopLevelParentUniqueName2 = Contoso.Events.sln
-		SccProjectName2 = Contoso.Events.Data
-		SccAuxPath2 = https://vstf-us-wa-11.partners.extranet.microsoft.com:8443/tfs/mslearning
-		SccLocalPath2 = Contoso.Events.Data
-		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName3 = Contoso.Events.ViewModels\\Contoso.Events.ViewModels.csproj
-		SccProjectTopLevelParentUniqueName3 = Contoso.Events.sln
-		SccProjectName3 = Contoso.Events.ViewModels
-		SccAuxPath3 = https://vstf-us-wa-11.partners.extranet.microsoft.com:8443/tfs/mslearning
-		SccLocalPath3 = Contoso.Events.ViewModels
-		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName4 = Contoso.Events.Worker\\Contoso.Events.Worker.csproj
-		SccProjectTopLevelParentUniqueName4 = Contoso.Events.sln
-		SccProjectName4 = Contoso.Events.Worker
-		SccAuxPath4 = https://vstf-us-wa-11.partners.extranet.microsoft.com:8443/tfs/mslearning
-		SccLocalPath4 = Contoso.Events.Worker
-		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName5 = Contoso.Events.Cloud\\Contoso.Events.Cloud.ccproj
-		SccProjectName5 = Contoso.Events.Cloud
-		SccAuxPath5 = https://vstf-us-wa-11.partners.extranet.microsoft.com:8443/tfs/mslearning
-		SccLocalPath5 = Contoso.Events.Cloud
-		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName6 = Contoso.Events.Documents\\Contoso.Events.Documents.csproj
-		SccProjectTopLevelParentUniqueName6 = Contoso.Events.sln
-		SccProjectName6 = Contoso.Events.Documents
-		SccAuxPath6 = https://vstf-us-wa-11.partners.extranet.microsoft.com:8443/tfs/mslearning
-		SccLocalPath6 = Contoso.Events.Documents
-		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName7 = Contoso.Events.DataGeneration\\Contoso.Events.Data.Generation.csproj
-		SccProjectTopLevelParentUniqueName7 = Contoso.Events.sln
-		SccProjectName7 = Contoso.Events.DataGeneration
-		SccAuxPath7 = https://vstf-us-wa-11.partners.extranet.microsoft.com:8443/tfs/mslearning
-		SccLocalPath7 = Contoso.Events.DataGeneration
-		SccProvider7 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName8 = Contoso.Events.Management\\Contoso.Events.Management.csproj
-		SccProjectTopLevelParentUniqueName8 = Contoso.Events.sln
-		SccProjectName8 = Contoso.Events.Management
-		SccAuxPath8 = https://vstf-us-wa-11.partners.extranet.microsoft.com:8443/tfs/mslearning
-		SccLocalPath8 = Contoso.Events.Management
-		SccProvider8 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM

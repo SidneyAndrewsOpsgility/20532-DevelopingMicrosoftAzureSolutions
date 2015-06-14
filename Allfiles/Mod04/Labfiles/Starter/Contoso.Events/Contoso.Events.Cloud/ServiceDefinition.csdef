@@ -4,7 +4,7 @@
 <!-- Exercise 4.4: Debugging a Windows Azure Cloud Service Project  -->
 <!-- Exercise 5.2: Add the Class Library to a Cloud Service Project -->
 <!-- Exercise 5.3: Debug Worker Roles in a Cloud Service Project -->
-<ServiceDefinition name="Contoso.Events.Cloud" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+<ServiceDefinition name="Contoso.Events.Cloud" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2015-04.2.6">
   <WebRole name="Contoso.Events.Web" vmsize="Small">
     <Sites>
       <Site name="Web">
@@ -20,6 +20,7 @@
     </Imports>
     <ConfigurationSettings>
       <Setting name="LatestEventsCount" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
     </ConfigurationSettings>
   </WebRole>
 </ServiceDefinition>
